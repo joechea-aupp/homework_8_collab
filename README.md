@@ -18,7 +18,8 @@ To submit this week homework, please copy your group week 6 homework github repo
 
 Note: only 1 member in the group require to submit this exercise.
 
-Exercise 1 - **2pts**
+### Exercise 1 - **2pts**
+
 In a given list the last element should become the first one. An empty list or list with only one element should stay the same
 
 ![m3](resources/image_2023-07-28_11-34-30.png)
@@ -30,7 +31,8 @@ replace_last([1]) == [1]
 replace_last([]) == []
 ref: https://py.checkio.org/en/mission/replace-last/Links to an external site.
 
-Exercise 2 - **2pts**
+### Exercise 2 - **2pts**
+
 You are given an array with positive numbers and a number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
 
 Let's look at a few examples:
@@ -54,7 +56,8 @@ index_power([1, 2], 3) == -1
 
 ref: https://py.checkio.org/en/mission/index-power/Links to an external site.
 
-Exercise 3 - **2pts**
+### Exercise 3 - **2pts**
+
 Not all of the elements are important. What you need to do here is to remove all of the elements after the given one from list.
 
 ![m3](resources/image_2023-07-28_11-36-13.png)
@@ -77,7 +80,8 @@ remove_all_after([1, 1, 2, 2, 3, 3], 2) == [1, 1, 2]
 
 ref: https://py.checkio.org/en/mission/remove-all-after/Links to an external site.
 
-Exercise 4 - 2pts
+### Exercise 4 - 2pts
+
 You have a lot of work to do, so you might want to split it into smaller pieces. This way you'll know which piece you'll do on Monday, which will be for Tuesday and so on.
 
 Split a list into smaller lists of the same size (chunks). The last chunk can be smaller than the default chunk-size. If the list is empty, then you shouldn't have any chunks at all.
@@ -98,7 +102,8 @@ chunking_by([3, 4, 5], 1) == [[3], [4], [5]]
 
 ref: https://py.checkio.org/en/mission/chunk/Links to an external site.
 
-Exercise 5 - 2pts
+### Exercise 5 - 2pts
+
 In a given string you should reverse every word, but the words should stay in their places.
 
 Input: A string.
