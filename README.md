@@ -16,7 +16,23 @@ To submit this week homework, please copy your group week 6 homework github repo
 
 ![m2](resources/image_2023-07-28_11-30-52.png)
 
-Note: only 1 member in the group require to submit this exercise.
+**Note: only 1 member in the group require to submit this exercise.**
+
+### Group Responsibility
+
+<u>Group Leader</u>
+
+1. Clone [this](https://github.com/joechea-aupp/homework_8_collab) repository
+2. Create new repository under his/her own account
+3. Change the clone repository origin to the one that you just created [how to set new origin on clone directory](https://github.com/joechea-aupp/github_tut)
+4. Approve your member pull request.
+5. Submit your group repository url on Canvas
+
+<u>Group Member</u>
+
+1. Fork repository from your group leader
+2. Solve exercise that's assigned to you
+3. Merge your answer with the origin repository
 
 ### Exercise 1 - **2pts**
 
@@ -29,7 +45,7 @@ replace_last([2, 3, 4, 1]) == [1, 2, 3, 4]
 replace_last([1, 2, 3, 4]) == [4, 1, 2, 3]
 replace_last([1]) == [1]
 replace_last([]) == []
-ref: https://py.checkio.org/en/mission/replace-last/Links to an external site.
+ref: https://py.checkio.org/en/mission/replace-last/Links
 
 ### Exercise 2 - **2pts**
 
@@ -54,7 +70,7 @@ index_power([1, 2], 3) == -1
 
 ```
 
-ref: https://py.checkio.org/en/mission/index-power/Links to an external site.
+ref: https://py.checkio.org/en/mission/index-power/Links
 
 ### Exercise 3 - **2pts**
 
@@ -78,7 +94,7 @@ remove_all_after([1, 1, 2, 2, 3, 3], 2) == [1, 1, 2]
 
 ```
 
-ref: https://py.checkio.org/en/mission/remove-all-after/Links to an external site.
+ref: https://py.checkio.org/en/mission/remove-all-after/Links
 
 ### Exercise 4 - 2pts
 
@@ -100,23 +116,51 @@ chunking_by([3, 4, 5], 1) == [[3], [4], [5]]
 
 ```
 
-ref: https://py.checkio.org/en/mission/chunk/Links to an external site.
+ref: https://py.checkio.org/en/mission/chunk/Links
 
 ### Exercise 5 - 2pts
 
-In a given string you should reverse every word, but the words should stay in their places.
+Create and return a new Iterable that contains the same elements as the given list items, but with the reversed order of the elements inside every maximal strictly ascending subsequence. This function should not modify the contents of the original list.
 
-Input: A string.
+Input: List of integers (int).
 
-Output: A string.
+Output: List or another Iterable (tuple, iterator, generator) of integers (int).
 
-Example:
+Examples:
 
 ```
-backward_string_by_word('') == ''
-backward_string_by_word('world') == 'dlrow'
-backward_string_by_word('hello world') == 'olleh dlrow'
-backward_string_by_word('hello world') == 'olleh dlrow'
+assert list(reverse_ascending([1, 2, 3, 4, 5])) == [5, 4, 3, 2, 1]
+assert list(reverse_ascending([5, 7, 10, 4, 2, 7, 8, 1, 3])) == [
+    10,
+    7,
+    5,
+    4,
+    8,
+    7,
+    2,
+    3,
+    1,
+]
+assert list(reverse_ascending([5, 4, 3, 2, 1])) == [5, 4, 3, 2, 1]
+assert list(reverse_ascending([])) == []
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
 ```
 
-ref: https://py.checkio.org/en/mission/backward-each-word/Links to an external site.
+How it is used: (math is used everywhere)
+
+Precondition: given sequence includes only integers.
+
+ref: https://py.checkio.org/en/mission/reverse-every-ascending/
