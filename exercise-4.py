@@ -1,5 +1,6 @@
 def chunking_by(numbers, chunck):
     
+    # For empty list    
     if len(number) == 0:
         print("The list is empty!")
         
@@ -8,10 +9,10 @@ def chunking_by(numbers, chunck):
     # create a list to store the result
     chuck_result = []
     
-    # loop number in range from 0 to allnumbers with step
+    # loop index in number range from 0 to all numbers with step
     for index in range(0, len(numbers), chunck):
         
-        # in numbers take first index + step
+        # create one chunk: in numbers, take first index till index + step 
         chuck = numbers[index:index + chunck]  
         chuck_result.append(chuck)
         
