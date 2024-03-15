@@ -5,7 +5,7 @@ def index_power(numnbers, n):
     if n >= len(numnbers):
             result -= 1
     
-    if n in numnbers:
+    if n < len(numnbers):
         #caculate if n is inside array of numnbers
         result = numnbers[n] ** n 
 
