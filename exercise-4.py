@@ -17,6 +17,3 @@ def chunking_by(numbers, chunck):
     #The last list append into the result
     result.append(temp_list)
     return result
-
-    
-print(chunking_by([3, 4, 5], 1))
