@@ -18,7 +18,7 @@ class TestExercises(unittest.TestCase):
 
     # Exercise 2
     def test_exercise2_edge_cases(self):
-                 
+        
         # 1) Testing a list with negative numbers
         self.assertEqual(index_power([-1, -2, -3, -4], 2), 9)
         
