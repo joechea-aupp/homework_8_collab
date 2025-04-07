@@ -32,6 +32,10 @@ To submit this week homework, please copy your group week 6 homework github repo
 2. Create new branch using exercise number that they are working on
 3. Once completed, member send pull request of the exercise branch they are working on to main branch.
 
+Illustrate workflow
+![image](https://github.com/user-attachments/assets/944d5fde-39c6-41d1-abd7-ec400883a589)
+
+
 ### Exercise 1 - **2pts**
 
 In a given list the last element should become the first one. An empty list or list with only one element should stay the same
