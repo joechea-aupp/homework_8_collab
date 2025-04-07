@@ -22,16 +22,15 @@ To submit this week homework, please copy your group week 6 homework github repo
 
 <u>Group Leader</u>
 
-1. Clone the repository from your group leader
-2. Change the clone repository origin to the one that you just created [how to set new origin on clone directory](https://github.com/joechea-aupp/github_tut)
-3. Approve your member pull request.
-4. Submit your group repository url on Canvas
+1. Fork [this](https://github.com/joechea-aupp/homework_8_collab) repository
+2. Group leader check the incoming code, and approve pull request.
+3. Submit your group repository url on Canvas
 
 <u>Group Member</u>
 
-1. Fork [this](https://github.com/joechea-aupp/homework_8_collab) repository
-2. Solve exercise that's assigned to you
-3. Merge your answer with the origin repository
+1. Clone the just forked repository by group leader on to your local machine
+2. Create new branch using exercise number that they are working on
+3. Once completed, member send pull request of the exercise branch they are working on to main branch.
 
 ### Exercise 1 - **2pts**
 
